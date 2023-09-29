@@ -42,3 +42,60 @@
     align-items: center;
     padding: 10px;
 }
+
+/* Video */
+
+#sessionvideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titlevideo {
+    color: #247ba0;
+    margin-top: 50px;
+}
+
+#textvideo {
+    display: flex;
+    align-items: center;
+}
+
+#video {
+    margin: 50px 25px 50px 100px;
+}
+
+/* Carousel */
+
+#carousel {
+    background-color: #247ba0;
+    padding: 50px;
+}
+
+#title-carousel {
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+}
+
+#card-div {
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card {
+    margin-left: 50px;
+}
+
+#left-arrow {
+    display: none;
+}
+
+#samantha {
+    display: none;
+}
+
+.arrow {
+    margin-top: 25%;
+}

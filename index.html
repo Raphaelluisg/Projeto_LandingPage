@@ -7,6 +7,7 @@
     <title>Project Landing Page</title>
 </head>
 <body>
+    <!--Menu Superior-->
     <div id="top-menu">
         <a href="http://www.escoladnc.com.br"><img src="./imagens/logo.svg" id="logo" alt="Logo"></a>
         <h1 id="menu-superior-title">Dê os primeiros passos da <br> sua carreira em tecnologia</h1>
@@ -14,10 +15,41 @@
         da DNC School e aprenda os principais <br> fundamentos para 
         contruir experiências efetivas.</p>
     </div>
+
+    <!--Menu Information-->
     <div id="menu-informational">
         <p class="textmenu-icon"><img src="icons/fluent_certificate-24-regular.svg" class="icon" id="certificate" alt="certificate">Certificado de conclusão</p>
         <p class="textmenu-icon"><img src="icons/ic_baseline-access-time.svg" class="icon" id="clock" alt="acesstime">4 horas de conteúdo</p>
         <p class="textmenu-icon"><img src="icons/bx_camera-movie.svg" class="icon" id="camera" alt="movie">Aulas online gravada</p>
+    </div>
+
+    <!--Links-->
+    <div id="sessionvideo">
+        <iframe id="video" width="502" height="283" src="https://www.youtube.com/embed/rdINp5rZgxU?si=_IQ6js0-r7CBMd6p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div>
+            <h1 id="titlevideo">Aprenda com especialistas e<br>
+                comece seu primeiro projeto.
+            </h1> <br><br>
+            <p id="textvideo">Conheça o processo de desenvolvimento e entenda como utilizar <br>
+                os principais métodos e ferramentas da área para resolver <br>
+                problemas complexos. <br>
+                <br>
+                Conquiste seu certificado e desenvolva um projeto prático para <br>
+                aplicar seus conhecimentos.
+            </p>
+        </div>        
+    </div>
+
+    <!--Carousel slide-->
+    <div id="carousel">
+        <h1 id="title-carousel">Mais de 500 alunos já iniciaram seus estudos</h1>
+        <div id="card-div">
+            <img id="left-arrow" class="arrow" src="./icons/seta-esquerda.svg" alt="esquerda">
+            <img id="leonardo" class="card" src="./cards/leonardo.svg" alt="Card-Leonardo">
+            <img id="bruna" class="card" src="./cards/bruna.svg" alt="Card-Bruna">
+            <img id="samantha" class="card" src="./cards/samantha.svg" alt="">
+            <img id="right-arrow" class="arrow" src="./icons/seta-direita.svg" alt="direita">
+        </div>
     </div>
     <script src="index.js"></script>
 </body>
