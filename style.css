@@ -98,4 +98,52 @@
 
 .arrow {
     margin-top: 25%;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    transform: translateY(-7px);
+    transition: 0.5s;
+}
+
+/* Form  */
+
+#form{
+    text-align: center;
+}
+
+#form-title{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    background-color: #eaece5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+button {
+    background-color: #247ba0;
+    height: 40px;
+    width: 250px;
+    color:#eaece5;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #13a4e2;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #255468;
+    transition-duration: 0.5s;
 }

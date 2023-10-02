@@ -44,12 +44,24 @@
     <div id="carousel">
         <h1 id="title-carousel">Mais de 500 alunos já iniciaram seus estudos</h1>
         <div id="card-div">
-            <img id="left-arrow" class="arrow" src="./icons/seta-esquerda.svg" alt="esquerda">
+            <img id="left-arrow" class="arrow" src="./icons/seta-esquerda.svg" onclick="LeftScroll()" alt="esquerda">
             <img id="leonardo" class="card" src="./cards/leonardo.svg" alt="Card-Leonardo">
             <img id="bruna" class="card" src="./cards/bruna.svg" alt="Card-Bruna">
             <img id="samantha" class="card" src="./cards/samantha.svg" alt="">
             <img id="right-arrow" class="arrow" src="./icons/seta-direita.svg" onclick="RightScroll()" alt="direita">
         </div>
+    </div>
+
+    <!--Form-->
+    <div id="form">
+        <h1 id="form-title">Comece agora mesmo e dê o próximo passo da sua carreira.</h1>
+        <form action="https://api.sheetmonkey.io/form/jEZgKomPasV7MyGsQu1aNP" method="POST">
+            <input type="text" placeholder="Nome" name="name" required><br>
+            <input type="email" placeholder="E-mail" name="Email" required ><br>
+            <input type="number" placeholder="Telefone" name="Phone"><br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button type="submit">Acesse a ementa grátis</button>
+        </form>
     </div>
     <script src="index.js"></script>
 </body>
